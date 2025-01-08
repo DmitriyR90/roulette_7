@@ -79,7 +79,7 @@ a {
   line-height: 0.85;
   color: var(--white-color);
 
-  top: 23.1%;
+  top: 38.4%;
   left: 4%;
 }
 
@@ -97,9 +97,9 @@ a {
   left: 16%;
 }
 
-.first-paragraph {
+.simple-text {
   font-size: 76%;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
 }
 
 .second-paragraph {
@@ -107,11 +107,14 @@ a {
   font-size: 37.5%;
   line-height: 1;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -7%;
 }
-.odds {
-  font-size: 323%;
+.bonus {
+  font-size: 311%;
   margin-bottom: 5.6%;
+}
+.bottom-text {
+  margin-bottom: 5%;
 }
 .hero-button {
   display: block;
@@ -119,12 +122,12 @@ a {
   border: none;
 
   text-decoration: none;
-  font-size: 50%;
+  font-size: 45%;
   border-radius: 500px;
-  width: 64%;
+  width: 68%;
   margin: 0 auto;
 
-  padding: 7.2% 0% 6.2% 0%;
+  padding: 6.2% 0% 5.2% 0%;
 }
 
 .hero-button:hover,
@@ -204,21 +207,26 @@ a {
   .main-text {
     width: 100%;
     left: 0;
-    top: 10%;
+    top: 19.4%;
 
     text-align: center;
   }
 
-  .first-paragraph {
-    font-size: 71%;
+  .simple-text {
+    font-size: 82.5%;
+    margin: 0;
   }
 
   .second-paragraph {
     margin-bottom: 2.2%;
   }
 
-  .odds {
-    font-size: 306%;
+  .bonus {
+    font-size: 340%;
+    margin-bottom: -3%;
+  }
+  .bottom-text {
+    margin-bottom: 5.5%;
   }
 
   .hero-button {
